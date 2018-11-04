@@ -3,15 +3,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "Swifter",
+    name: "Swifterr",
     products: [
-        .library(name: "Swifter", targets: ["Swifter"]),
-    ],
+        .library(name: "Swifterr", targets: ["Swifterr"]),
+        ],
     targets: [
         .target(
-            name: "Swifter",
+            name: "Swifterr",
             path: "Sources"
         ),
-    ],
+        ],
     swiftLanguageVersions: [.v4_2]
 )
+
